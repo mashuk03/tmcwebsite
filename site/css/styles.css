@@ -183,6 +183,21 @@ p { color: var(--muted); }
 }
 .client-grid span:hover { transform: translateY(-3px); border-color: var(--gold); }
 
+/* Page hero (interior pages) */
+.page-hero {
+  background: linear-gradient(120deg, var(--navy) 0%, var(--navy-2) 100%);
+  color: var(--white); padding: 150px 0 70px; text-align: center;
+}
+.page-hero h1 { color: var(--white); font-family: var(--display); font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 16px; }
+.page-hero .eyebrow { margin-bottom: 14px; }
+.page-hero-sub { color: rgba(255,255,255,.82); max-width: 640px; margin: 0 auto; font-size: 1.05rem; }
+
+/* Contact CTA (home page) */
+.contact-cta { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white); text-align: center; }
+.contact-cta .center { max-width: 680px; margin: 0 auto; }
+.contact-cta h2 { color: var(--white); margin-bottom: 14px; }
+.contact-cta-sub { color: rgba(255,255,255,.82); margin-bottom: 28px; }
+
 /* Contact */
 .contact-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 50px; }
 .contact-people { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
