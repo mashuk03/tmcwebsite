@@ -2,3 +2,6 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Local MCP config — contains credentials/API tokens, never commit
+.kiro/settings/mcp.json
